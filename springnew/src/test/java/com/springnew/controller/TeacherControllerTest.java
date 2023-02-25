@@ -30,8 +30,8 @@ public class TeacherControllerTest {
 		List<Teacher> teacher = new ArrayList<Teacher>();
 		Teacher teacher1 = new Teacher(1L, "Sabari");
 		Teacher teacher2 = new Teacher(1L, "Kishore");
-		teacherstudents.add(teacher1);
-		teacherstudents.add(teacher2);
+		teacher.add(teacher1);
+		teacher.add(teacher2);
 		return teacher;
 	}
 	
