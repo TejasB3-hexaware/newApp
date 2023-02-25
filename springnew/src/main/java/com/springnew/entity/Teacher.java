@@ -27,7 +27,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 public class Teacher {
 
 	@Id
-	private String id;
+	private Long id;
     private String name;
 
 	public Teacher(String id, 
