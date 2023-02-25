@@ -13,7 +13,7 @@ import com.springnew.exception.EntityNotFoundException;
 import com.springnew.repository.TeacherRepository;
 
 @Service
-public class Teacher>Service {
+public class <Teacher>Service {
 
 	@Autowired
 	private TeacherRepository teacherRepo;
