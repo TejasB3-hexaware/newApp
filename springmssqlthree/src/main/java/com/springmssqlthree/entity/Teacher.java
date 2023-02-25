@@ -27,21 +27,21 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 public class Teacher {
 
 	@Id
-	private String id;
+	private Long id;
     private String name;
 
-	public Teacher(String id, 
+	public Teacher(Long id, 
         String name
     ){
     this.id = id;
 	this.name = name;
 	}
 
-    public String getId() {
+    public Long getId() {
 		return id;
 	}
 
-	public void setId(String id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
