@@ -29,7 +29,7 @@ public class TeacherControllerTest {
 	private List<Teacher> prepareTeacherRecords(){
 		List<Teacher> teacher = new ArrayList<Teacher>();
 		Teacher teacher1 = new Teacher(1L, "Sabari");
-		Teacher teacher2 = new Teacher(1L, "Kishore");
+		Teacher teacher2 = new Teacher(2L, "Kishore");
 		teacher.add(teacher1);
 		teacher.add(teacher2);
 		return teacher;
@@ -89,7 +89,7 @@ public class TeacherControllerTest {
 	public void createPass() {
 		Teacher teacherToBeCreated = prepareTeacherRecords().get(0);
 		Teacher teacherReturned = prepareTeacherRecords().get(0);
-		teacherReturned.setId(1L); //Changed the ID.
+		teacherReturned.setId(7L); //Changed the ID.
 		
 		Mockito
 			.when(controller.create(teacherToBeCreated)).thenReturn(teacherReturned);
