@@ -13,7 +13,7 @@ import com.springmssqlthree.exception.EntityNotFoundException;
 import com.springmssqlthree.repository.TeacherRepository;
 
 @Service
-public class Teacher>Service {
+public class TeacherService {
 
 	@Autowired
 	private TeacherRepository teacherRepo;
