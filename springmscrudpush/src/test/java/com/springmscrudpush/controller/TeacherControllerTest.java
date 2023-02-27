@@ -28,8 +28,8 @@ public class TeacherControllerTest {
 	
 	private List<Teacher> prepareTeacherRecords(){
 		List<Teacher> teacher = new ArrayList<Teacher>();
-		Teacher teacher = new Teacher(1L, "erBJz");
-		Teacher teacher = new Teacher(2L, "82bnF");
+		Teacher teacher1 = new Teacher(1L, "erBJz");
+		Teacher teacher2 = new Teacher(2L, "82bnF");
 		teacher.add(teacher1);
 		teacher.add(teacher2);
 		return teacher;
